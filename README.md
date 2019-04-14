@@ -1,12 +1,12 @@
 # AWS Lambda Backup
 
-AWS Lambda Backup is a script to create and remove snapshots of EBS volumes. 
+AWS Lambda Backup is a script to create and remove AMI images and snapshots of EBS volumes. 
 
 
 ## Features
 
-- Create daily, weekly, monthly and yearly snapshots based on your individual configuration
-- Automatically clean up old snapshots
+- Create daily, weekly, monthly and yearly snapshots and images based on your individual configuration
+- Automatically clean up old snapshots and images
 
 
 
