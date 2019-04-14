@@ -73,11 +73,21 @@ TBD
             "Action": [
                 "logs:CreateLogGroup",
                 "logs:CreateLogStream",
-                "logs:PutLogEvents",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:*:*:*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
                 "ec2:CreateSnapshot",
                 "ec2:CreateTags",
                 "ec2:DeleteSnapshot",
                 "ec2:DescribeInstances",
+                "ec2:DescribeRegions",
+                "ec2:DescribeImages",
+                "ec2:CreateImage",
+                "ec2:DeregisterImage",
                 "ec2:DescribeSnapshots"
             ],
             "Resource": "*"
